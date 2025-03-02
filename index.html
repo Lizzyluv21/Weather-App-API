@@ -27,16 +27,17 @@
           <input type="submit" value="Search" class="search-form-button" />
         </form>
       </header>
+
       <main>
         <div class="weather-app-data">
           <div>
             <h1 class="weather-app-city" id="city">Paris</h1>
             <p class="weather-app-details">
-              <span id="time">Monday 10:57</span>,
+              <span id="time">Sunday 12:05</span>,
               <span id="description">clear sky</span>
               <br />
-              Humidity: <strong id="humidity">61%</strong>, Wind:
-              <strong id="wind-speed">3.6km/h</strong>
+              Humidity: <strong id="humidity">54%</strong>, Wind:
+              <strong id="wind-speed">4.12km/h</strong>
             </p>
           </div>
           <div class="weather-app-temperature-container">
@@ -46,8 +47,84 @@
                 class="weather-app-icon"
               />
             </div>
-            <div class="weather-app-temperature" id="temperature">7</div>
-            <div class="weatehr-app-unit">°C</div>
+            <div class="weather-app-temperature" id="temperature">11</div>
+            <div class="weather-app-unit">°C</div>
+          </div>
+        </div>
+        <div class="weather-forecast" id="forecast">
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-date">Sun</div>
+
+            <img
+              src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/few-clouds-day.png"
+              class="weather-forecast-icon"
+            />
+            <div class="weather-forecast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>11º</strong>
+              </div>
+              <div class="weather-forecast-temperature">3º</div>
+            </div>
+          </div>
+
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-date">Mon</div>
+
+            <img
+              src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/scattered-clouds-day.png"
+              class="weather-forecast-icon"
+            />
+            <div class="weather-forecast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>12º</strong>
+              </div>
+              <div class="weather-forecast-temperature">3º</div>
+            </div>
+          </div>
+
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-date">Tue</div>
+
+            <img
+              src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-day.png"
+              class="weather-forecast-icon"
+            />
+            <div class="weather-forecast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>13º</strong>
+              </div>
+              <div class="weather-forecast-temperature">5º</div>
+            </div>
+          </div>
+
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-date">Wed</div>
+
+            <img
+              src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
+              class="weather-forecast-icon"
+            />
+            <div class="weather-forecast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>15º</strong>
+              </div>
+              <div class="weather-forecast-temperature">6º</div>
+            </div>
+          </div>
+
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-date">Thu</div>
+
+            <img
+              src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-day.png"
+              class="weather-forecast-icon"
+            />
+            <div class="weather-forecast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>16º</strong>
+              </div>
+              <div class="weather-forecast-temperature">7º</div>
+            </div>
           </div>
         </div>
       </main>
